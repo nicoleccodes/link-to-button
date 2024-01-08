@@ -40,12 +40,3 @@ body {
     cursor: pointer;
     font-size: 14px;
 }
-
-.link-item {
-    cursor: grab;
-    user-select: none;
-}
-
-.link-item:active {
-    cursor: grabbing;
-}
