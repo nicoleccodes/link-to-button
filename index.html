@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Link to Button</title>
+</head>
+<body>
+    <div class="container">
+        <label for="linkInput">Enter Link:</label>
+        <input type="text" id="linkInput" placeholder="https://www.youtube.com">
+        
+        <label for="buttonNameInput">Link Name:</label>
+        <input type="text" id="buttonNameInput" placeholder="Youtube">
+
+        <button class="create-button" onclick="createButton()">Create Button</button>
+        <div id="buttonContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+</body>
+</html>
